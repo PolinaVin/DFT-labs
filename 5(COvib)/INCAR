@@ -1,0 +1,19 @@
+ SYSTEM = CO dimer in a box
+
+Electronic relaxation
+ ENCUT = 400    ! cutoff energy
+ ALGO = fast    ! algorithm for electronic optimizations
+ EDIFF = 1E-4   ! energy convergence criterion
+
+Ionic Relaxation
+# EDIFFG = -0.01 ! residual forces acting on atoms
+ IBRION = 7     ! use the conjugate gradient algorithm
+ NSW = 1      ! ionic steps 
+ POTIM = 0.02 ! 0.02 A stepwidth 
+ NFREE = 2    ! central differences
+
+ ISMEAR = 0     ! Gaussian smearing of delta functions 
+
+Write files 
+ LWAVE = .FALSE.
+ LCHARG = .FALSE.

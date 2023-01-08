@@ -1,0 +1,17 @@
+ SYSTEM = Hello World
+
+Electronic relaxation
+ ENCUT = 400    ! cutoff energy
+ ALGO = fast    ! algorithm for electronic optimizations
+ EDIFF = 1E-4   ! energy convergence criterion
+
+Ionic Relaxation
+ EDIFFG = -0.01 ! residual forces acting on atoms
+ IBRION = 1     ! use the conjugate gradient algorithm
+ NSW = 300      ! ionic steps 
+
+ ISMEAR = 0     ! Gaussian smearing of delta functions 
+
+Write files 
+ LWAVE = .FALSE.
+ LCHARG = .FALSE.

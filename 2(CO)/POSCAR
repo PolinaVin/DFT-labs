@@ -1,0 +1,10 @@
+CO molecule in a box
+ 1.0          ! universal scaling parameters
+ 10.1 0.0 0.0  ! lattice vector  a(1)(angstrem)
+ 0.0 10.3 0.0  ! lattice vector  a(2)(>10 to interaction)
+ 0.0 0.0 10.5  ! lattice vector  a(3)
+1 1           ! number of atoms for each species
+selective dinamics           ! selective degrees of freedom are changed
+cart          ! positions in cartesian coordinates (in angstrems)
+ 0 0 0       F F T  ! first atom (fix or tranfer)
+ 0 0 1.2   F F T  ! second atom

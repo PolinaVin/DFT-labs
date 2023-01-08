@@ -1,0 +1,17 @@
+ SYSTEM = O2
+
+Electronic relaxation
+ ENCUT = 400    ! cutoff energy (eV)
+ ALGO = fast    ! algorithm for electronic optimizations
+ EDIFF = 1E-4   ! energy convergence criterion (eV) up to 10^-7-8
+
+Ionic Relaxation
+ EDIFFG = -0.01 ! residual forces acting on atoms (minus means forces condition)
+ IBRION = 1     ! use the conjugate gradient algorithm
+ NSW = 300      ! ionic steps (0 if no atoms transfer)
+
+ ISMEAR = 0     ! Gaussian smearing of delta functions 
+
+Write files 
+ LWAVE = .FALSE.
+ LCHARG = .FALSE.

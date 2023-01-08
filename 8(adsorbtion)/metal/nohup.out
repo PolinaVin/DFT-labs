@@ -1,0 +1,532 @@
+ running on    1 total cores
+ distrk:  each k-point on    1 cores,    1 groups
+ distr:  one band on    1 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.3.3 18Dez12 (build Sep  7 2015 22:32:56) complex                        
+  
+ POSCAR found type information on POSCAR  Fe
+ POSCAR found :  1 types and      12 ions
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.640509868424E+03    0.64051E+03   -0.29876E+04   252   0.104E+03
+DAV:   2    -0.404386046795E+02   -0.68095E+03   -0.64932E+03   252   0.341E+02
+DAV:   3    -0.896884638887E+02   -0.49250E+02   -0.43468E+02   336   0.996E+01
+DAV:   4    -0.966487224070E+02   -0.69603E+01   -0.63307E+01   440   0.376E+01
+DAV:   5    -0.972437494143E+02   -0.59503E+00   -0.56113E+00   376   0.840E+00
+DAV:   6    -0.973431945930E+02   -0.99445E-01   -0.94980E-01   464   0.198E+00
+DAV:   7    -0.973678517517E+02   -0.24657E-01   -0.23867E-01   392   0.604E-01
+DAV:   8    -0.973759818712E+02   -0.81301E-02   -0.79236E-02   320   0.274E-01
+DAV:   9    -0.973783825744E+02   -0.24007E-02   -0.23775E-02   272   0.138E-01
+DAV:  10    -0.973791513872E+02   -0.76881E-03   -0.76230E-03   240   0.723E-02    0.338E+01
+RMM:  11    -0.108959559521E+03   -0.11580E+02   -0.23386E+02   253   0.106E+02    0.680E+01
+RMM:  12    -0.100932299286E+03    0.80273E+01   -0.14863E+02   252   0.833E+01    0.535E+01
+RMM:  13    -0.872708171866E+02    0.13661E+02   -0.15597E+01   254   0.310E+01    0.299E+01
+RMM:  14    -0.882940327223E+02   -0.10232E+01   -0.18187E+01   263   0.197E+01    0.344E+01
+RMM:  15    -0.833450126067E+02    0.49490E+01   -0.10982E+01   262   0.187E+01    0.211E+01
+RMM:  16    -0.794487189525E+02    0.38963E+01   -0.13783E+01   286   0.123E+01    0.199E+01
+RMM:  17    -0.751789674331E+02    0.42698E+01   -0.78640E+00   275   0.970E+00    0.109E+01
+RMM:  18    -0.748023848140E+02    0.37658E+00   -0.52817E+00   290   0.692E+00    0.968E+00
+RMM:  19    -0.750826290877E+02   -0.28024E+00   -0.16331E+00   293   0.362E+00    0.560E+00
+RMM:  20    -0.793966127422E+02   -0.43140E+01   -0.23731E+00   260   0.617E+00    0.430E+00
+RMM:  21    -0.827118447961E+02   -0.33152E+01   -0.28911E+00   256   0.491E+00    0.260E+00
+RMM:  22    -0.838382896718E+02   -0.11264E+01   -0.14331E+00   268   0.322E+00    0.291E+00
+RMM:  23    -0.848114018326E+02   -0.97311E+00   -0.12843E+00   270   0.315E+00    0.314E+00
+RMM:  24    -0.853791557260E+02   -0.56775E+00   -0.82391E-01   283   0.202E+00    0.259E+00
+RMM:  25    -0.858028982684E+02   -0.42374E+00   -0.40286E-01   285   0.158E+00    0.242E+00
+RMM:  26    -0.851137225408E+02    0.68918E+00   -0.59911E-01   255   0.286E+00    0.200E+00
+RMM:  27    -0.850167808902E+02    0.96942E-01    0.14877E-01   301   0.637E-01    0.200E+00
+RMM:  28    -0.863491632422E+02   -0.13324E+01   -0.14228E+00   253   0.324E+00    0.195E+00
+RMM:  29    -0.868786027054E+02   -0.52944E+00   -0.76735E-01   272   0.214E+00    0.220E+00
+RMM:  30    -0.871250479823E+02   -0.24645E+00   -0.47439E-01   280   0.150E+00    0.314E+00
+RMM:  31    -0.871899176548E+02   -0.64870E-01   -0.25083E-01   279   0.125E+00    0.461E+00
+RMM:  32    -0.871716213254E+02    0.18296E-01   -0.44736E-02   303   0.604E-01    0.495E+00
+RMM:  33    -0.871821121360E+02   -0.10491E-01   -0.28792E-02   320   0.248E-01    0.489E+00
+RMM:  34    -0.872196411360E+02   -0.37529E-01    0.76219E-03   263   0.307E-01    0.461E+00
+RMM:  35    -0.872651867709E+02   -0.45546E-01   -0.34396E-02   271   0.509E-01    0.485E+00
+RMM:  36    -0.871918569919E+02    0.73330E-01   -0.12461E-02   267   0.696E-01    0.560E+00
+RMM:  37    -0.871496043899E+02    0.42253E-01   -0.44021E-03   306   0.436E-01    0.589E+00
+RMM:  38    -0.871532088663E+02   -0.36045E-02   -0.73117E-04   282   0.136E-01    0.588E+00
+RMM:  39    -0.871711811916E+02   -0.17972E-01    0.33288E-03   220   0.145E-01    0.572E+00
+RMM:  40    -0.871735094959E+02   -0.23283E-02    0.13654E-03   171   0.718E-02    0.569E+00
+RMM:  41    -0.871715883407E+02    0.19212E-02    0.51437E-03   160   0.648E-02    0.570E+00
+RMM:  42    -0.871673894838E+02    0.41989E-02    0.35329E-03   161   0.653E-02    0.574E+00
+RMM:  43    -0.872058125806E+02   -0.38423E-01   -0.22724E-03   256   0.170E-01    0.543E+00
+RMM:  44    -0.874191927726E+02   -0.21338E+00   -0.90029E-02   273   0.979E-01    0.389E+00
+RMM:  45    -0.875801522120E+02   -0.16096E+00   -0.19880E-01   284   0.143E+00    0.177E+00
+RMM:  46    -0.875875860331E+02   -0.74338E-02   -0.24830E-02   330   0.458E-01    0.171E+00
+RMM:  47    -0.875684091399E+02    0.19177E-01   -0.48766E-03   268   0.315E-01    0.212E+00
+RMM:  48    -0.875710748216E+02   -0.26657E-02    0.11055E-03   283   0.187E-01    0.216E+00
+RMM:  49    -0.876136203230E+02   -0.42546E-01   -0.24210E-02   281   0.460E-01    0.178E+00
+RMM:  50    -0.876559035972E+02   -0.42283E-01   -0.84135E-02   285   0.956E-01    0.140E+00
+RMM:  51    -0.876675582350E+02   -0.11655E-01   -0.26717E-02   314   0.457E-01    0.115E+00
+RMM:  52    -0.876700269126E+02   -0.24687E-02   -0.16115E-02   302   0.322E-01    0.929E-01
+RMM:  53    -0.876701153071E+02   -0.88395E-04    0.83854E-03   287   0.164E-01    0.855E-01
+RMM:  54    -0.876707770101E+02   -0.66170E-03   -0.81732E-03   258   0.170E-01    0.787E-01
+RMM:  55    -0.876595464991E+02    0.11231E-01   -0.23258E-02   271   0.658E-01    0.840E-01
+RMM:  56    -0.876622501446E+02   -0.27036E-02   -0.18692E-03   293   0.241E-01    0.602E-01
+RMM:  57    -0.876634635365E+02   -0.12134E-02   -0.85538E-03   284   0.314E-01    0.843E-01
+RMM:  58    -0.876648912704E+02   -0.14277E-02   -0.53395E-03   273   0.291E-01    0.945E-01
+RMM:  59    -0.876716742760E+02   -0.67830E-02    0.18544E-04   276   0.188E-01    0.734E-01
+RMM:  60    -0.876747257837E+02   -0.30515E-02   -0.44063E-04   273   0.163E-01
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   1 F= -.87674726E+02 E0= -.87671175E+02  d E =-.876747E+02  mag=    28.6027
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.368E-02 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.368E-02
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.883360346732E+02   -0.66436E+00   -0.34707E+00   280   0.313E+00    0.379E+00
+RMM:   2    -0.884938643959E+02   -0.15783E+00   -0.20312E+00   258   0.700E+00    0.738E+00
+RMM:   3    -0.884336168849E+02    0.60248E-01   -0.82970E-01   255   0.563E+00    0.729E+00
+RMM:   4    -0.883668539057E+02    0.66763E-01   -0.73709E-01   264   0.431E+00    0.478E+00
+RMM:   5    -0.882774695444E+02    0.89384E-01   -0.14716E-01   255   0.258E+00    0.104E+00
+RMM:   6    -0.883092543950E+02   -0.31785E-01   -0.24714E-01   283   0.158E+00    0.162E+00
+RMM:   7    -0.883053861746E+02    0.38682E-02   -0.52279E-02   258   0.124E+00    0.553E-01
+RMM:   8    -0.883757783215E+02   -0.70392E-01   -0.40821E-02   290   0.463E-01    0.370E-01
+RMM:   9    -0.884252546374E+02   -0.49476E-01   -0.10421E-02   266   0.339E-01    0.311E-01
+RMM:  10    -0.884465418434E+02   -0.21287E-01   -0.91534E-03   294   0.187E-01    0.142E-01
+RMM:  11    -0.884545171219E+02   -0.79753E-02   -0.59748E-03   248   0.170E-01    0.106E-01
+RMM:  12    -0.884540758156E+02    0.44131E-03   -0.34163E-03   220   0.892E-02    0.574E-02
+RMM:  13    -0.884546418019E+02   -0.56599E-03   -0.29107E-03   169   0.652E-02    0.400E-02
+RMM:  14    -0.884554879739E+02   -0.84617E-03   -0.15866E-03   155   0.517E-02    0.208E-02
+RMM:  15    -0.884559355072E+02   -0.44753E-03   -0.17015E-03   152   0.416E-02    0.114E-02
+RMM:  16    -0.884561647869E+02   -0.22928E-03   -0.14063E-03   125   0.321E-02    0.133E-02
+RMM:  17    -0.884563325749E+02   -0.16779E-03   -0.72510E-04   123   0.277E-02    0.854E-03
+RMM:  18    -0.884565405200E+02   -0.20795E-03   -0.39679E-04   135   0.282E-02    0.101E-02
+RMM:  19    -0.884566131694E+02   -0.72649E-04   -0.44439E-04   126   0.253E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   2 F= -.88456613E+02 E0= -.88459348E+02  d E =-.781887E+00  mag=    30.0003
+ trial-energy change:   -0.781887  1 .order   -0.002203   -0.003683   -0.000722
+ step:   1.0002(harm=  1.2439)  dis= 0.00000  next Energy=   -88.456613 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569365008E+02   -0.39598E-03   -0.31234E-03   177   0.234E-02    0.178E-02
+RMM:   2    -0.884569930444E+02   -0.56544E-04   -0.80351E-05   133   0.486E-02    0.130E-01
+RMM:   3    -0.884569472865E+02    0.45758E-04   -0.29695E-05   128   0.378E-02    0.559E-02
+RMM:   4    -0.884569415662E+02    0.57203E-05   -0.17649E-05   124   0.193E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   3 F= -.88456942E+02 E0= -.88459676E+02  d E =-.782216E+00  mag=    30.0002
+ curvature:  -0.00 expect dE=-0.121E-06 dE for cont linesearch -0.121E-06
+ ZBRENT: increasing intervall
+ opt :   1.0005  next Energy=   -88.456942 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569450950E+02    0.21915E-05   -0.12372E-05   147   0.427E-02    0.104E-02
+RMM:   2    -0.884569482303E+02   -0.31353E-05   -0.16861E-05   125   0.291E-02    0.263E-02
+RMM:   3    -0.884569472775E+02    0.95283E-06   -0.15286E-05   124   0.268E-02    0.153E-02
+RMM:   4    -0.884569484142E+02   -0.11368E-05   -0.51860E-06    70   0.125E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   4 F= -.88456948E+02 E0= -.88459684E+02  d E =-.782223E+00  mag=    30.0001
+ curvature:  -0.00 expect dE=-0.235E-06 dE for cont linesearch -0.235E-06
+ ZBRENT: increasing intervall
+ opt :   1.0011  next Energy=   -88.456949 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569505645E+02   -0.32870E-05   -0.45885E-06   126   0.112E-02    0.948E-03
+RMM:   2    -0.884569606014E+02   -0.10037E-04   -0.19279E-05   123   0.212E-02    0.597E-02
+RMM:   3    -0.884569511969E+02    0.94045E-05   -0.15777E-05   123   0.318E-02    0.145E-02
+RMM:   4    -0.884569540822E+02   -0.28853E-05   -0.15583E-06    29   0.645E-03
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   5 F= -.88456954E+02 E0= -.88459690E+02  d E =-.782228E+00  mag=    30.0001
+ curvature:  -0.00 expect dE=-0.454E-06 dE for cont linesearch -0.454E-06
+ ZBRENT: increasing intervall
+ opt :   1.0023  next Energy=   -88.456955 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569555362E+02   -0.43392E-05   -0.35260E-06   126   0.160E-02    0.506E-03
+RMM:   2    -0.884569614919E+02   -0.59557E-05   -0.69899E-06    77   0.128E-02    0.379E-02
+RMM:   3    -0.884569575928E+02    0.38992E-05   -0.52535E-06    80   0.164E-02    0.377E-03
+RMM:   4    -0.884569605997E+02   -0.30070E-05   -0.65444E-07    13   0.522E-03
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   6 F= -.88456961E+02 E0= -.88459697E+02  d E =-.782235E+00  mag=    30.0000
+ curvature:  -0.01 expect dE=-0.845E-06 dE for cont linesearch -0.845E-06
+ ZBRENT: increasing intervall
+ opt :   1.0048  next Energy=   -88.456962 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569649947E+02   -0.74020E-05   -0.68223E-06   126   0.110E-02    0.525E-03
+RMM:   2    -0.884569714310E+02   -0.64363E-05   -0.73526E-06   117   0.156E-02    0.417E-02
+RMM:   3    -0.884569663928E+02    0.50382E-05   -0.58385E-06   118   0.190E-02    0.390E-03
+RMM:   4    -0.884569687877E+02   -0.23949E-05   -0.32125E-07    13   0.425E-03
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   7 F= -.88456969E+02 E0= -.88459705E+02  d E =-.782243E+00  mag=    30.0000
+ curvature:  -0.01 expect dE=-0.178E-05 dE for cont linesearch -0.178E-05
+ ZBRENT: increasing intervall
+ opt :   1.0097  next Energy=   -88.456973 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569731659E+02   -0.67732E-05   -0.17897E-05   126   0.169E-02    0.527E-03
+RMM:   2    -0.884569774121E+02   -0.42462E-05   -0.47428E-06    86   0.119E-02    0.346E-02
+RMM:   3    -0.884569739072E+02    0.35049E-05   -0.42564E-06    91   0.157E-02    0.517E-03
+RMM:   4    -0.884569756080E+02   -0.17007E-05   -0.24348E-07     9   0.490E-03
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   8 F= -.88456976E+02 E0= -.88459713E+02  d E =-.782250E+00  mag=    30.0000
+ curvature:  -0.03 expect dE=-0.363E-05 dE for cont linesearch -0.363E-05
+ ZBRENT: increasing intervall
+ opt :   1.0196  next Energy=   -88.456983 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569828183E+02   -0.89110E-05   -0.67507E-05   126   0.320E-02    0.681E-03
+RMM:   2    -0.884569846443E+02   -0.18261E-05   -0.46397E-06   106   0.120E-02    0.178E-02
+RMM:   3    -0.884569849260E+02   -0.28168E-06   -0.31315E-06   107   0.134E-02    0.169E-02
+RMM:   4    -0.884569846059E+02    0.32013E-06   -0.71426E-07    46   0.871E-03
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+   9 F= -.88456985E+02 E0= -.88459725E+02  d E =-.782259E+00  mag=    30.0000
+ curvature:  -0.05 expect dE=-0.671E-05 dE for cont linesearch -0.671E-05
+ ZBRENT: increasing intervall
+ opt :   1.0393  next Energy=   -88.456998 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884569969839E+02   -0.12058E-04   -0.27473E-04   213   0.626E-02    0.114E-02
+RMM:   2    -0.884569987477E+02   -0.17638E-05   -0.78322E-06   121   0.186E-02    0.125E-02
+RMM:   3    -0.884569994658E+02   -0.71806E-06   -0.77190E-06   124   0.215E-02    0.200E-02
+RMM:   4    -0.884569989849E+02    0.48084E-06   -0.27054E-06   101   0.132E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+  10 F= -.88456999E+02 E0= -.88459745E+02  d E =-.782273E+00  mag=    30.0000
+ curvature:  -0.10 expect dE=-0.136E-04 dE for cont linesearch -0.136E-04
+ ZBRENT: increasing intervall
+ opt :   1.0788  next Energy=   -88.457027 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884570179357E+02   -0.18470E-04   -0.10849E-03   252   0.124E-01    0.237E-02
+RMM:   2    -0.884570233235E+02   -0.53878E-05   -0.28567E-05   126   0.377E-02    0.285E-02
+RMM:   3    -0.884570225107E+02    0.81279E-06   -0.32484E-05   126   0.464E-02    0.254E-02
+RMM:   4    -0.884570213296E+02    0.11811E-05   -0.76510E-06   124   0.219E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+  11 F= -.88457021E+02 E0= -.88459778E+02  d E =-.782296E+00  mag=    30.0000
+ curvature:  -0.21 expect dE=-0.221E-04 dE for cont linesearch -0.221E-04
+ ZBRENT: increasing intervall
+ opt :   1.1578  next Energy=   -88.457065 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884570372013E+02   -0.14691E-04   -0.43179E-03   252   0.248E-01    0.470E-02
+RMM:   2    -0.884570619152E+02   -0.24714E-04   -0.10615E-04   132   0.722E-02    0.646E-02
+RMM:   3    -0.884570771652E+02   -0.15250E-04   -0.13342E-04   128   0.931E-02    0.108E-01
+RMM:   4    -0.884570513298E+02    0.25835E-04   -0.52445E-05   126   0.538E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+  12 F= -.88457051E+02 E0= -.88459828E+02  d E =-.782326E+00  mag=    30.0000
+ curvature:  -0.40 expect dE=-0.404E-04 dE for cont linesearch -0.404E-04
+ ZBRENT: increasing intervall
+ opt :   1.3158  next Energy=   -88.457144 (dE=-0.782E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884570008609E+02    0.76304E-04   -0.17270E-02   252   0.495E-01    0.944E-02
+RMM:   2    -0.884571207265E+02   -0.11987E-03   -0.59228E-04   207   0.155E-01    0.126E-01
+RMM:   3    -0.884571317362E+02   -0.11010E-04   -0.50517E-04   190   0.156E-01    0.167E-01
+RMM:   4    -0.884571022094E+02    0.29527E-04   -0.17880E-04   139   0.938E-02
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+  13 F= -.88457102E+02 E0= -.88459921E+02  d E =-.782376E+00  mag=    30.0000
+ curvature:  -0.93 expect dE=-0.669E-04 dE for cont linesearch -0.669E-04
+ ZBRENT: increasing intervall
+ opt :   1.6317  next Energy=   -88.457237 (dE=-0.783E+00)
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.884566311472E+02    0.50059E-03   -0.69020E-02   252   0.994E-01    0.189E-01
+RMM:   2    -0.884571197598E+02   -0.48861E-03   -0.25317E-03   251   0.319E-01    0.228E-01
+RMM:   3    -0.884570582625E+02    0.61497E-04   -0.19093E-03   248   0.292E-01    0.214E-01
+RMM:   4    -0.884570599189E+02   -0.16564E-05   -0.58591E-04   191   0.140E-01
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      Your highest band is occupied at some k-points! Unless you are         |
+|      performing a calculation for an insulator or semiconductor, without    |
+|      unoccupied bands, you have included TOO FEW BANDS!! Please increase    |
+|      the parameter NBANDS in file INCAR to ensure that the highest band   |
+|      is unoccupied at all k-points. It is always recommended to             |
+|      include a few unoccupied bands to accelerate the convergence of        |
+|      molecular dynamics runs (even for insulators or semiconductors).       |
+|      Because the presence of unoccupied bands improves wavefunction         |
+|      prediction, and helps to suppress 'band-crossings.'                    |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+  14 F= -.88457060E+02 E0= -.88459967E+02  d E =-.782334E+00  mag=    30.0000
+ curvature:  -1.86 expect dE=-0.995E-05 dE for cont linesearch -0.995E-05
+ trial: gam= 0.00000 g(F)=  0.535E-05 g(S)=  0.000E+00 ort =-0.140E-03 (trialstep = 0.113E+01)
+ search vector abs. value=  0.535E-05
+ reached required accuracy - stopping structural energy minimisation

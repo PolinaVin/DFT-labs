@@ -1,0 +1,21 @@
+header                                     
+1.0                                    
+5.64 0.00 0.00  ! lattice vector  a(1)(angstrem)
+0.00 5.64 0.00  ! lattice vector  a(2)(>10 to interaction)
+0.00 0.00 15.0  ! lattice vector  a(3)                                         
+Fe
+12
+selective dynamic
+cart        
+0.00    0.00    0.00 F F F	
+2.82    0.00    0.00 F F F
+0.00    2.82    0.00 F F F
+2.82    2.82    0.00 F F F
+1.41    1.41    1.41 F F F
+4.23    1.41    1.41 F F F
+1.41    4.23    1.41 F F F
+4.23    4.23    1.41 F F F
+0.00    0.00    2.82 T T T
+2.82    0.00    2.82 T T T
+0.00    2.82    2.82 T T T
+2.82    2.82    2.82 T T T

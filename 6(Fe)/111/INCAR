@@ -1,0 +1,31 @@
+System = Crystal
+
+Start parameter for this Run:
+ ISTART = 0
+ ICHARG = 2
+ ISPIN = 2
+
+Electronic relaxation
+ ENCUT = 350
+ ALGO = fast
+ NELMDL = -10
+ NSIM = 4
+ EDIFF = 1E-5
+
+ PREC = Normal
+
+ ISMEAR = 2
+ SIGMA = 0.1
+
+
+Ionic Relaxation
+ EDIFFG = -0.01
+ NSW = 300
+ IBRION = 2
+
+Write files 
+ LWAVE = .FALSE.
+ LCHARG = .FALSE.
+
+LREAL=.FALSE.
+NELMIN = 4
